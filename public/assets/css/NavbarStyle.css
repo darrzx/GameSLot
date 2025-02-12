@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F3F4;
+    align-items: center;
+    height: 12vh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.navbar-content {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form.searchbar{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a.sign {
+    text-align: center;
+    border: 1.8px solid rgb(97, 28, 208);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 6px;
+    margin-right: 6px;
+    color: rgb(97, 28, 208);
+}
+
+a.admin-menu{
+    color: black;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 15px;
+}
+
+a.sign:hover{
+    background-color: rgb(97, 28, 208);
+    color: white;
+}
+
+.searchfield {
+    height: 40px;
+    width: 300px;
+    font-size: 17px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: 1.5px solid #174972;
+}
+
+input{
+    text-indent: 10px;
+}
+
+.searchsubmit {
+    height: 45px;
+    width: 65px;
+    border-radius: 5px;
+    color: #174972;
+    font-size: 15px;
+    border: 1.5px solid #174972;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.searchsubmit:hover{
+    background-color: #174972;
+    color: white;
+}
+
+footer{
+    margin-top: 5%;
+    left: 0;
+    right: 0;
+}
+
+.footer{
+    background-color: #F2F3F4;
+    padding: 20px 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer p{
+    font-size: 14px;
+    word-spacing: 2px;
+    color: black;
+}
